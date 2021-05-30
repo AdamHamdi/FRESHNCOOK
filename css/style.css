@@ -1,0 +1,329 @@
+body {
+    box-sizing: border-box;
+}
+.navbar {
+    text-transform: uppercase;
+    box-shadow: 0px 2px 30px gray;
+    padding:2rem 3rem!important;
+    margin-bottom: 80px;
+}
+.navbar-nav  a {
+   
+    
+  
+  }
+  .navbar-brand {
+    color: #b2ce66 !important;
+}
+  
+  .nav-item>a:hover  {
+    color: #75294d !important;
+    font-weight: bold !important;
+  }
+  .nav-item>a:focus  {
+    color: #75294d !important;
+    font-weight: bold !important;
+  }
+
+
+
+#commender {
+    background: url(../assets/images/Groupe13.png) no-repeat center center/cover;
+    background-size: 100% 100%;
+    padding: 10rem 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
+
+
+
+.btn-commander {
+    background-color: #75294d;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    padding: 0.5rem 1.25rem;
+    font-weight: bold;
+}
+
+#jumbotron {
+    width: 100%;
+    margin-top: 90px;
+    background-color: #75294d;
+    color: white;
+    height: fit-content;
+    padding: 59px;
+}
+
+.btn-jumb {
+    background-color: #fff;
+    color: #75294d;
+    border: none;
+    padding: 0.5rem 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#solution {
+    background: url(../assets/images/Rectangle\ 2.png) no-repeat center center/cover;
+    height: fit-content;
+}
+
+#solution h1 {
+    text-transform: uppercase;
+    margin: 40px;
+}
+
+#solution .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 37px;
+}
+
+#solution .boxes .box {
+    flex: 1;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#solution .boxes .box2 img {
+    width: 100px!important;
+    text-align: center;
+}
+
+#solution .boxes .box img {
+    width: 80px;
+    height: 80px;
+   
+    margin-bottom: 1rem;
+}
+
+#solution .boxes .box p {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+/** plat*/
+
+#plats {
+    height: fit-content;
+    margin-bottom: 40px;
+}
+
+#plats h1 {
+    margin-top: 40px !important;
+}
+
+#plats .carousel-inner {
+    margin-top: 40px !important;
+}
+
+#plats .plats {
+   
+    margin-bottom: 37px;
+}
+
+#plats h1 {
+    color: #b2ce66 !important;
+}
+
+#plats .plats .plat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#plats .plats .plat h5 {
+    margin-bottom: 30px;
+    color: #b2ce66 !important;
+}
+
+#plats .plats .plat img {
+    width: 200px  !important;
+    height: 200px  !important;
+    /* margin-left: 2rem; */
+    margin-bottom: 37px;
+}
+
+#plats .plats .plat p {
+    margin-bottom: 37px;
+    width: 60% !important;
+}
+
+#plats .btn-plats {
+    background-color: #75294d;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    padding: 0.5rem 1.25rem;
+    font-weight: bold;
+}
+
+#repas {
+    background: url(../assets/images/repas.png) no-repeat center center/cover;
+    
+    /* background-size: 100% 100%; */
+     padding: 1rem 0; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#repas .repas{
+    background-color: rgba(255, 255, 255, 0.6);
+    width:50%;
+    height:fit-content;
+    margin:auto;
+    border-radius: 5px;
+    padding: 0 1rem;
+}
+#repas .repas .badge{
+    background-color:rgb(250, 244, 244);
+    padding:10px 20px;
+    margin-left:7px;
+    margin-bottom:10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#repas .repas .badge:active{
+    background-color:#b2ce66 ;
+    padding:10px 20px;
+    margin-left:7px;
+    margin-bottom:10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#repas .repas .badge:hover{
+    background-color:#b2ce66 ;
+    padding:10px 20px;
+    margin-left:7px;
+    margin-bottom:10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#repas .repas .btn-demande{
+    padding:2px 14px;
+    border-radius: 20px;
+    background-color: #75294d;
+    color:#fff;
+    font-weight: bold;
+    border:none;
+    text-transform: uppercase;
+    font-size: 12px;
+   
+}
+#repas .repas .btn-choisir-repas{
+    background-color: #75294d;
+    color:  #fff;
+    border: none;
+    padding: 0.5rem 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/** tttttttttttttttttttttttttttttttttttttttttttttttttttttt */
+.testimonials{
+    -webkit-backround-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background:cover;
+    position:relative;
+   /* height:700px; */
+   /* background: url(../assets/images/healthy-ingredients-kitchen-table-spaghetti-olive-oil-t.png) no-repeat center center/cover; */
+}
+.testimonials .overlay{
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    /* background-color:rgba(0,0,0,0.4); */
+    z-index:2;
+}
+.testimonials .container{
+    position: relative;
+    z-index:50;
+    margin-bottom: 50px;
+}
+.testimonials .container #testimonials .carousel-indicators{
+    margin-top:200px !important;
+}
+.testimonials .container #testimonials .carousel-indicators li{
+  
+    border-radius: 50%!important;
+    width:7px;
+    height:7px;
+    border: 2px solid #75294d;
+    transition: opacity .6s ease;
+    background-color: #f365a8;
+    /*  */
+}
+.testimonials .container #testimonials .carousel-indicators li.active{
+  
+    border-radius: 50%!important;
+    width:7px;
+    height:7px;
+    border: 2px solid #75294d;
+    transition: opacity .6s ease;
+    background-color: #75294d;
+    /*  */
+}
+.testimonials .container .carousel-control-next, .testimonials .container .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #a52626;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+@media screen and (max-width:767px){
+    #plats {
+        padding: 0 0.25rem;
+        margin: auto;
+        width: 80%;
+    }
+    #plats .plats {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0.25rem;
+    }
+    #solution .boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #repas .repas{
+        width: 100%;
+        padding: 0 0.5rem;
+        margin: 10%;
+    }
+    #repas .btn-choisir-repas{
+        display: block;
+        width:100% !important;
+        font-size: 14px;
+        margin: auto;
+       
+    }
+    #plats h1 {
+        text-align: center;
+        margin-left: auto;
+    }
+}
